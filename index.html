@@ -196,7 +196,7 @@
           <p>
             <b>Shared Mapping is the key to bridge generation and understanding ability in one tokenizer for AR model.</b>
             We incorporate dual encoders and codebooks with a shared mapping, enabling the joint optimization of high-level
-            semantics and low-level pixel details. For a given input image, distances are calculated from the pixel-level land semantic-level codebooks,
+            semantics and low-level pixel details. For a given input image, distances are calculated from the pixel-level and semantic-level codebooks,
             respectively, with the final codebook index and features determined by minimizing the weighted sum distance.
             The resulting quantized features are independently decoded for both semantic alignment and image reconstruction training,
             and then concatenated to provide a unified representation for downstream tasks in understanding and generation.
