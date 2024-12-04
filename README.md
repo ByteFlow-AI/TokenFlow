@@ -37,14 +37,14 @@ TokenFlow excels in both multimodal understanding and image generation. For mult
 
 | Model Size   | Tokenizer Weight       | Model Weight |
 | ------------ | --------------         | ------------------|
-| 7B           | [TokenFlow](https://huggingface.co/ByteFlow-AI/TokenFlow) | [ByteFlow-AI/](https://huggingface.co/ByteFlow-AI/TokenFlow-t2i) |
+| 7B           | [TokenFlow](https://huggingface.co/ByteFlow-AI/TokenFlow) | [TokenFlow-t2i](https://huggingface.co/ByteFlow-AI/TokenFlow-t2i) |
 
 
 **Multimodal Understanding Model**
 
 | Language Backbone   | Tokenizer Weight       | Model Weight |
 | ------------ | --------------         | ------------------|
-| Qwen-2.5-14B           | [TokenFlow-XL](https://huggingface.co/ByteFlow-AI/TokenFlow) | [ByteFlow-AI/](https://huggingface.co/ByteFlow-AI/TokenFlow-i2t) |
+| Qwen-2.5-14B           | [TokenFlow-XL](https://huggingface.co/ByteFlow-AI/TokenFlow) | [TokenFlow-i2t](https://huggingface.co/ByteFlow-AI/TokenFlow-i2t) |
 
 
 ## 📑 Open-source Plan
