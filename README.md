@@ -27,7 +27,7 @@ TokenFlow excels in both multimodal understanding and image generation. For mult
 
 ## 📰 News
 
-**2024.12.4**:  🎉🎉🎉 TokenFlow is released! 🎉🎉🎉  See our [project page](https://byteflow-ai.github.io/TokenFlow/) and [paper]() .
+**2024.12.5**:  🎉🎉🎉 TokenFlow is released! 🎉🎉🎉  See our [project page](https://byteflow-ai.github.io/TokenFlow/) and [paper]() .
 
 
 
