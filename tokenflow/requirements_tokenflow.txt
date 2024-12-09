@@ -1,0 +1,8 @@
+torch>=2.1.0
+timm
+mypy
+numpy
+einops
+scipy
+scikit-image
+transformers==4.43.4
