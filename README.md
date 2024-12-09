@@ -72,7 +72,7 @@ See [GETTING_STARTED.md](./GETTING_STARTED.md) for detailed instructions of ***t
 
 ## 📑 Open-source Plan
 
-- [X] Release the checkpoint of tokenizer, text-to-image model & multimodal understanding model.
+- [ ] Release the checkpoint of tokenizer, text-to-image model & multimodal understanding model.
 - [X] Release the training & inference code for tokenizer.
 - [X] Release the training & inference code for text-to-image generation.
 - [X] Release the training & inference code for multimodal understanding.
