@@ -3,6 +3,7 @@ timm
 mypy
 numpy
 einops
+ftfy
 scipy
 scikit-image
 transformers==4.43.4
