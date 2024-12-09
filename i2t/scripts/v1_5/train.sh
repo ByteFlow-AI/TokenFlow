@@ -14,8 +14,6 @@ export NCCL_SOCKET_IFNAME=eth0
 
 export OMP_NUM_THREADS=8
 
-num_processes=$((ARNOLD_WORKER_GPU * ARNOLD_WORKER_NUM))
-
 export PRETRAIN_OUT_PATH=checkpoints/i2t_pre
 export SFT_OUT_PATH=checkpoints/i2t_sft
 export VISION_TOWER_CKPT="PATH_TO_VISION_TOWER"
