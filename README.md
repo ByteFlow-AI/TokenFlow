@@ -41,16 +41,33 @@ See [GETTING_STARTED.md](./GETTING_STARTED.md) for detailed instructions of ***t
 
 **Text-to-Image Model**
 
-| Model Size   | Tokenizer Weight       | Model Weight |
-| ------------ | --------------         | ------------------|
-| 7B           | [TokenFlow](https://huggingface.co/ByteFlow-AI/TokenFlow) | [TokenFlow-t2i](https://huggingface.co/ByteFlow-AI/TokenFlow-t2i) |
-
+<table>
+  <tr>
+    <th style="width: 150px;">Model Size</th>
+    <th>Tokenizer Weight</th>
+    <th>Model Weight</th>
+  </tr>
+  <tr>
+    <td align="center">7B</td>
+    <td align="center"><a href="https://huggingface.co/ByteFlow-AI/TokenFlow/blob/main/tokenflow_clipb_32k_enhanced.pt">TokenFlow</a></td>
+    <td align="center"><a href="https://huggingface.co/ByteFlow-AI/TokenFlow-t2i">TokenFlow-t2i</a></td>
+  </tr>
+</table>
 
 **Multimodal Understanding Model**
 
-| Language Backbone   | Tokenizer Weight       | Model Weight |
-| ------------ | --------------         | ------------------|
-| Qwen-2.5-14B           | [TokenFlow-XL](https://huggingface.co/ByteFlow-AI/TokenFlow) | [TokenFlow-i2t](https://huggingface.co/ByteFlow-AI/TokenFlow-i2t) |
+<table>
+  <tr>
+    <th style="width: 150px;">Language Backbone</th>
+    <th>Tokenizer Weight</th>
+    <th>Model Weight</th>
+  </tr>
+  <tr>
+    <td align="center">Qwen-2.5-14B</td>
+    <td align="center"><a href="https://huggingface.co/ByteFlow-AI/TokenFlow/blob/main/tokenflow_siglip_32k.pt">TokenFlow-XL</a></td>
+    <td align="center"><a href="https://huggingface.co/ByteFlow-AI/TokenFlow-i2t">TokenFlow-i2t</a></td>
+  </tr>
+</table>
 
 
 ## 📑 Open-source Plan
