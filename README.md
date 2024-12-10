@@ -65,7 +65,7 @@ See [GETTING_STARTED.md](./GETTING_STARTED.md) for detailed instructions of ***t
   <tr>
     <td align="center">Qwen-2.5-14B</td>
     <td align="center"><a href="https://huggingface.co/ByteFlow-AI/TokenFlow/blob/main/tokenflow_siglip_32k.pt">TokenFlow-XL</a></td>
-    <td align="center"><a href="https://huggingface.co/ByteFlow-AI/TokenFlow-i2t">TokenFlow-i2t</a></td>
+    <td align="center"><a href="https://huggingface.co/ByteFlow-AI/Tokenflow-llava-qwen2.5-14B-finetuning">TokenFlow-llava-qwen2.5-14B-finetuning</a></td>
   </tr>
 </table>
 
