@@ -19,7 +19,6 @@ def build_vision_tower(vision_tower_cfg, **kwargs):
                 return CLIPVisionTowerS2(vision_tower, args=vision_tower_cfg, **kwargs)
             else:
                 return CLIPVisionTower(vision_tower, args=vision_tower_cfg, **kwargs)
-    # elif mm_vision_vq_type in [VQType.VQGAN, VQType.VQKD, VQType.LFQGAN, VQType.VQGANLC, VQType.LLAMAGEN_VQKD, VQType.LLAMAGEN_VQKD_INFER]:
     else:
         if is_absolute_path_exists:
             return VQTower(vision_tower, args=vision_tower_cfg, **kwargs)
