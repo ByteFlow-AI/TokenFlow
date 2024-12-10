@@ -36,7 +36,7 @@ torchrun \
     --data_path /YOUR_DATA_PATH/Cambrian-Alignment/jsons/alignment_2.5m.jsonl \
     --image_folder /YOUR_DATA_PATH/cambrian/Cambrian-Alignment \
     --vision_tower $VISION_TOWER_CKPT \
-    --mm_vision_vq_type LLAMAGEN_VQKD \
+    --mm_vision_vq_type TOKENFLOW \
     --mm_projector_type mlp2x_gelu \
     --tune_mm_mlp_adapter True \
     --mm_vision_tuning_embedding False \
@@ -83,7 +83,7 @@ torchrun \
     --data_path /YOUR_DATA_PATH/Cambrian-10M/jsons/Cambrian10M.jsonl \
     --image_folder /YOUR_DATA_PATH/Cambrian-10M/ \
     --vision_tower $VISION_TOWER_CKPT \
-    --mm_vision_vq_type LLAMAGEN_VQKD \
+    --mm_vision_vq_type TOKENFLOW \
     --pretrain_mm_mlp_adapter $PRETRAIN_OUT_PATH/mm_projector.bin \
     --mm_projector_type mlp2x_gelu \
     --mm_vision_select_layer -2 \
