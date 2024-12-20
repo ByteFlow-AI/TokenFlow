@@ -316,7 +316,7 @@ class TokenFlow(nn.Module):
                 if random.random() < self.random_scale_drop_ratio:
                     new_layers = drop_scale(self.scale_rq_layers, self.num_of_random_drop)
 
-            for i, scale_size in enumerate(new_layers): # TODO add random drop
+            for i, scale_size in enumerate(new_layers): # random drop scale
                 residual_si = F.interpolate(residual, size=(scale_size, scale_size), mode='area')
                 quantize, emb_loss, info = self.quantize(residual_si)
                 quantize = F.interpolate(quantize, size=(self.scale_rq_layers[-1], self.scale_rq_layers[-1]), mode='bicubic')
