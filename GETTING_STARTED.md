@@ -89,3 +89,25 @@ bash i2t/scripts/v1_5/train.sh  # pretrain and finetune
 ### Evaluation
 
 We use [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval.git) to evaluate the model.
+
+1. Make sure you have install the i2t environment. This will install a "llava" pip package.
+2. Then refer to the LLaVA testing instructions in the [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval.git) repository. Example command:
+```bash
+python3 -m accelerate.commands.launch \
+    --num_processes=8 \
+    -m lmms_eval \
+    --model llava \
+    --model_args pretrained="ByteFlow-AI/Tokenflow-llava-qwen2.5-14B-finetuning" \
+    --tasks mme \
+    --batch_size 1 \
+    --log_samples \
+    --log_samples_suffix llava_v1.5_mme \
+    --output_path ./logs/
+    # you can also change the `--model_args pretrained=` to local path of your model.
+```
+
+3. In case lmms-eval repo can't find the llava package, add a system path in `lmms_eval/models/llava.py`
+```python
+from pathlib import Path
+sys.path.insert(0, str(Path("/path/to/your/TokenFlow/i2t").resolve()))
+```
