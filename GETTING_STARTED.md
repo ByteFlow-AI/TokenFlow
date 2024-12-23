@@ -44,7 +44,7 @@ bash scripts/reconstruction_vq.sh
 
  - Dowload the pretrained 'clipb' version tokenizer from [here](https://huggingface.co/ByteFlow-AI/TokenFlow) and put it in the `TokenFlow/pretrained_ckpts/` folder.
 
-- Install the enviroment package according to `t2i/requirement.txt`.
+- Install the enviroment package according to `t2i/requirements.txt`.
 
 
 ### Text to image generation inference
