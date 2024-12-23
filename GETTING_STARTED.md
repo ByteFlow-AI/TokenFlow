@@ -97,7 +97,7 @@ python3 -m accelerate.commands.launch \
     --num_processes=8 \
     -m lmms_eval \
     --model llava \
-    --model_args pretrained="ByteFlow-AI/Tokenflow-llava-qwen2.5-14B-finetuning" \
+    --model_args pretrained="ByteFlow-AI/Tokenflow-llava-qwen2.5-14B-finetuning",conv_template="qwen_2_5" \
     --tasks mme \
     --batch_size 1 \
     --log_samples \
