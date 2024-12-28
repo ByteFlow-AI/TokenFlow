@@ -103,4 +103,4 @@ If our work assists your research, feel free to give us a star ⭐ or cite us us
 
 
 ## 🔥 Open positions
-We are hiring interns and full-time researchers at the ByteFlow Group, ByteDance, with a focus on multimodal understanding and generation. If you are interested, please contact quliao1117@gmail.com.
+We are hiring interns and full-time researchers at the ByteFlow Group, ByteDance, with a focus on multimodal understanding and generation (preferred base: Hangzhou, Beijing, and Shenzhen). If you are interested, please contact quliao1117@gmail.com.
