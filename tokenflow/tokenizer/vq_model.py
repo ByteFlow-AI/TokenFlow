@@ -357,8 +357,44 @@ class TokenFlow(nn.Module):
         dec = (vqkd_recon, vqgan_recon)
         return dec
 
-    def decode_code(self, code_b, shape=None, channel_first=True):
-        quant_b = self.quantize.get_codebook_entry(code_b, shape, channel_first)
+    def decode_code(self, code_b):
+        batch_size = code_b.size(0)
+        total_tokens = code_b.size(1)
+        
+        current_total = 0
+        used_scales = []
+        for scale_size in self.scale_rq_layers:
+            scale_tokens = scale_size ** 2
+            if current_total + scale_tokens > total_tokens:
+                break
+            used_scales.append(scale_size)
+            current_total += scale_tokens
+            if current_total == total_tokens:
+                break
+        
+        if current_total != total_tokens:
+            raise ValueError(
+                f"Invalid code_b size {total_tokens}, "
+                f"expected sum of scale tokens {current_total} "
+                f"(scales: {used_scales})"
+            )
+
+        quant_b = 0.0
+        current_pos = 0
+        
+        for scale_size in used_scales:
+            num_tokens = scale_size ** 2
+            indices = code_b[:, current_pos:current_pos+num_tokens]
+            current_pos += num_tokens            
+            quant_this_scale = self.quantize.get_codebook_entry(indices)
+            quant_this_scale = einops.rearrange(quant_this_scale, 'b (h w) c -> b c h w', h=scale_size, w=scale_size)
+            quant_this_scale = F.interpolate(
+                quant_this_scale,
+                size=(self.scale_rq_layers[-1], self.scale_rq_layers[-1]),
+                mode='bicubic'
+            )
+            quant_b += quant_this_scale
+
         dec = self.decode(quant_b)
         return dec
 
