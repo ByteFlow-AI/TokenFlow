@@ -387,7 +387,7 @@ class TokenFlow(nn.Module):
             indices = code_b[:, current_pos:current_pos+num_tokens]
             current_pos += num_tokens            
             quant_this_scale = self.quantize.get_codebook_entry(indices)
-            quant_this_scale = einops.rearrange(quant_this_scale, 'b (h w) c -> b c h w', h=scale_size, w=scale_size)
+            quant_this_scale = rearrange(quant_this_scale, 'b (h w) c -> b c h w', h=scale_size, w=scale_size)
             quant_this_scale = F.interpolate(
                 quant_this_scale,
                 size=(self.scale_rq_layers[-1], self.scale_rq_layers[-1]),
