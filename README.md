@@ -30,6 +30,8 @@ TokenFlow excels in both multimodal understanding and image generation. For mult
 
 ## 📰 News
 
+**2024.02.27**: TokenFlow got accepted to CVPR 2025.
+
 **2024.12.9**:  Code and checkpoints are released.
 
 **2024.12.5**:  🎉🎉🎉 TokenFlow is released! 🎉🎉🎉  See our [project page](https://byteflow-ai.github.io/TokenFlow/) and [paper](https://arxiv.org/abs/2412.03069) .
