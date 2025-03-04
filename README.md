@@ -96,7 +96,7 @@ If our work assists your research, feel free to give us a star ⭐ or cite us us
 
 ```
 @article{qu2024tokenflow,
-  title={TokenFlow: Unified Image Tokenizer for Multimodal Understanding and Generation},
+  title={Tokenflow: Unified image tokenizer for multimodal understanding and generation},
   author={Qu, Liao and Zhang, Huichao and Liu, Yiheng and Wang, Xu and Jiang, Yi and Gao, Yiming and Ye, Hu and Du, Daniel K and Yuan, Zehuan and Wu, Xinglong},
   journal={arXiv preprint arXiv:2412.03069},
   year={2024}
