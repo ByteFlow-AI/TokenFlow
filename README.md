@@ -30,7 +30,7 @@ TokenFlow excels in both multimodal understanding and image generation. For mult
 
 ## 📰 News
 
-**2024.02.27**: TokenFlow got accepted to CVPR 2025.
+**2025.02.27**: TokenFlow got accepted to CVPR 2025.
 
 **2024.12.9**:  Code and checkpoints are released.
 
