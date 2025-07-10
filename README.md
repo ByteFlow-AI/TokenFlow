@@ -19,13 +19,13 @@ TokenFlow introduce an innovative dual-codebook architecture that decouples sema
 
 
 <div align='center'>
-<img src="./assets/radar.png" class="interpolation-image" alt="radar." height="50%" width="50%" />
+<img src="./assets/radar.png" class="interpolation-image" alt="radar." width="50%" />
 </div>
 
 TokenFlow excels in both multimodal understanding and image generation. For multimodal understanding, we surpass the flagship models such as LLaVA-1.5 and EMU3 by a large margin. For text-to-image generation, we also achieve comparable performance to SDXL in 256×256 resolution.
 
 <div align='center'>
-<img src="./assets/teasor.png" class="interpolation-image" alt="teasor." height="100%" width="100%" />
+<img src="./assets/teasor.png" class="interpolation-image" alt="teasor." width="100%" />
 </div>
 
 ## 📰 News
