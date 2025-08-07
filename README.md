@@ -4,7 +4,7 @@
 
 [![TokenFlow](https://img.shields.io/badge/Paper-TokenFlow-2b9348.svg?logo=arXiv)](https://arxiv.org/abs/2412.03069)&nbsp;
 [![huggingface weights](https://img.shields.io/badge/%F0%9F%A4%97%20Weights-TokenFlow-yellow)](https://huggingface.co/ByteFlow-AI)&nbsp;
-[![project page](https://img.shields.io/badge/Project_page-More_visualizations-green?logo=bytedance)](https://byteflow-ai.github.io/TokenFlow/)&nbsp;
+[![project page](https://img.shields.io/badge/Project_page-More_visualizations-green?logo=bytedance)](https://bytevisionlab.github.io/TokenFlow/)&nbsp;
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=ByteFlow-AI.TokenFlow)
 [![GitHub closed issues](https://img.shields.io/github/issues-closed/ByteFlow-AI/TokenFlow?color=blue&label=Issues)](https://github.com/ByteFlow-AI/TokenFlow/issues?q=is%3Aissue+is%3Aclosed) 
 
@@ -81,8 +81,6 @@ See [GETTING_STARTED.md](./GETTING_STARTED.md) for detailed instructions of ***t
 - [X] Release the training & inference code for tokenizer.
 - [X] Release the training & inference code for text-to-image generation.
 - [X] Release the training & inference code for multimodal understanding.
-- [ ] Release the single-scale version of TokenFlow.
-
 
 
 ## Acknowledgement
@@ -105,4 +103,4 @@ If our work assists your research, feel free to give us a star ⭐ or cite us us
 
 
 ## 🔥 Open positions
-We are hiring interns and full-time researchers at the ByteFlow Group, ByteDance, with a focus on multimodal understanding and generation (preferred base: Hangzhou, Beijing, and Shenzhen). If you are interested, please contact quliao1117@gmail.com.
+We are hiring interns and full-time researchers at ByteDance, with a focus on multimodal understanding and generation (preferred base: Hangzhou, Beijing, and Shenzhen). If you are interested, please contact quliao1117@gmail.com.
