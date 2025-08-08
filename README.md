@@ -3,7 +3,7 @@
 <div align="center">
 
 [![TokenFlow](https://img.shields.io/badge/Paper-TokenFlow-2b9348.svg?logo=arXiv)](https://arxiv.org/abs/2412.03069)&nbsp;
-[![huggingface weights](https://img.shields.io/badge/%F0%9F%A4%97%20Weights-TokenFlow-yellow)](https://huggingface.co/ByteFlow-AI)&nbsp;
+[![huggingface weights](https://img.shields.io/badge/%F0%9F%A4%97%20Weights-TokenFlow-yellow)](https://huggingface.co/collections/ByteVisionLab/tokenflow-674ebd443b616dff1a634178)&nbsp;
 [![project page](https://img.shields.io/badge/Project_page-More_visualizations-green?logo=bytedance)](https://bytevisionlab.github.io/TokenFlow/)&nbsp;
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=ByteFlow-AI.TokenFlow)
 [![GitHub closed issues](https://img.shields.io/github/issues-closed/ByteFlow-AI/TokenFlow?color=blue&label=Issues)](https://github.com/ByteFlow-AI/TokenFlow/issues?q=is%3Aissue+is%3Aclosed) 
